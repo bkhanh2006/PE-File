@@ -1,0 +1,71 @@
+#include <iostream>
+#include <fstream>
+#include <windows.h>
+#include <vector>
+#include <string>
+using namespace std;
+class PEFILE
+{
+public:
+	PEFILE(char* _NAME, FILE* Ppefile);
+    
+    void PrintInfo();
+
+private:
+    char* NAME;
+    FILE* Ppefile;
+
+    // HEADERS
+    IMAGE_DOS_HEADER     PEFILE_DOS_HEADER;
+    IMAGE_NT_HEADERS64   PEFILE_NT_HEADERS;
+
+    // Data Directory
+    IMAGE_DATA_DIRECTORY PEFILE_EXPORT_DIRECTORY;
+    IMAGE_DATA_DIRECTORY PEFILE_IMPORT_DIRECTORY;
+    IMAGE_DATA_DIRECTORY PEFILE_RESOURCE_DIRECTORY;
+    IMAGE_DATA_DIRECTORY PEFILE_EXCEPTION_DIRECTORY;
+    IMAGE_DATA_DIRECTORY PEFILE_SECURITY_DIRECTORY;
+    IMAGE_DATA_DIRECTORY PEFILE_BASERELOC_DIRECTORY;
+    IMAGE_DATA_DIRECTORY PEFILE_DEBUG_DIRECTORY;
+    IMAGE_DATA_DIRECTORY PEFILE_ARCHITECTURE_DIRECTORY;
+    IMAGE_DATA_DIRECTORY PEFILE_GLOBALPTR_DIRECTORY;
+    IMAGE_DATA_DIRECTORY PEFILE_TLS_DIRECTORY;
+    IMAGE_DATA_DIRECTORY PEFILE_LOAD_CONFIG_DIRECTORY;
+    IMAGE_DATA_DIRECTORY PEFILE_BOUND_IMPORT_DIRECTORY;
+    IMAGE_DATA_DIRECTORY PEFILE_IAT_DIRECTORY;
+    IMAGE_DATA_DIRECTORY PEFILE_DELAY_IMPORT_DIRECTORY;
+    IMAGE_DATA_DIRECTORY PEFILE_COM_DESCRIPTOR_DIRECTORY;
+
+    // SECTION HEADERS
+    vector<IMAGE_SECTION_HEADER> PEFILE_SECTION_HEADERS;
+
+    // IMPORT TABLE
+    vector<IMAGE_IMPORT_DESCRIPTOR> PEFILE_IMPORT_TABLE;
+    
+    // BASE RELOCATION TABLE
+    vector<IMAGE_BASE_RELOCATION> PEFILE_BASERELOC_TABLE;
+    
+    // ADDRESS RESOLVERS
+    DWORD GetOffset(DWORD RVA);
+
+    // Parse 
+    void ParseFile();
+    void ParseDOSHeader();
+    void ParseNTHeaders();
+    void ParseSectionHeaders();
+    void ParseImportDirectory();
+    void ParseBaseReloc();
+
+    // PRINT INFO
+    void PrintFile();
+    void PrintDOSHeader();
+    void PrintNTHeaders();
+    void PrintSectionHeaders();
+    void PrintImportTable();
+    void PrintBaseRelocations();
+};
+
+typedef struct __BASE_RELOC_ENTRY {
+    WORD OFFSET : 12;
+    WORD TYPE : 4;
+} BASE_RELOC_ENTRY, * PBASE_RELOC_ENTRY;

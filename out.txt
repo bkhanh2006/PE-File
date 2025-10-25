@@ -1,0 +1,3099 @@
+file 64-bit 
+
+File Info 
+FILE C:\Windows\System32\notepad.exe
+
+DOS Header 
+Magic    : 0x5A4D
+Cblp     : 0x90
+Cp       : 0x3
+Crlc     : 0x0
+Cparhdr  : 0x4
+Minalloc : 0x0
+Maxalloc : 0xFFFF
+SS       : 0x0
+SP       : 0xB8
+Csum     : 0x0
+IP       : 0x0
+CS       : 0x0
+Lfarlc   : 0x40
+Ovlo     : 0x0
+Res[0]   : 0x0
+Res[1]   : 0x0
+Res[2]   : 0x0
+Res[3]   : 0x0
+Oemid    : 0x0
+Oeminfo  : 0x0
+Res2[0]  : 0x0
+Res2[1]  : 0x0
+Res2[2]  : 0x0
+Res2[3]  : 0x0
+Res2[4]  : 0x0
+Res2[5]  : 0x0
+Res2[6]  : 0x0
+Res2[7]  : 0x0
+Res2[8]  : 0x0
+Res2[9]  : 0x0
+Lfanew   : 0xF8
+
+NT Headers 
+ PE Signature: 0x4550
+
+ File Header:
+  Machine                 : 0x8664
+  Number of sections      : 0x8
+  TimeDateStamp           : 0xA442AA3B
+  PointerToSymbolTable    : 0x0
+  NumberOfSymbols         : 0x0
+  Size of optional header : 0xF0
+  Characteristics         : 0x22
+
+ Optional Header:
+  Magic                        : 0x20B
+  MajorLinkerVersion           : 14
+  MinorLinkerVersion           : 38
+  SizeOfCode                   : 0x28000
+  SizeOfInitializedData        : 0x31000
+  SizeOfUninitializedData      : 0x0
+  AddressOfEntryPoint          : 0x19B0
+  BaseOfCode                   : 0x1000
+  ImageBase                    : 0x140000000
+  SectionAlignment             : 0x1000
+  FileAlignment                : 0x1000
+  MajorOperatingSystemVersion  : 10
+  MinorOperatingSystemVersion  : 0
+  MajorImageVersion            : 10
+  MinorImageVersion            : 0
+  MajorSubsystemVersion        : 10
+  MinorSubsystemVersion        : 0
+  Win32VersionValue            : 0x0
+  SizeOfImage                  : 0x5A000
+  SizeOfHeaders                : 0x1000
+  CheckSum                     : 0x5AF11
+  Subsystem                    : 0x2
+  DllCharacteristics           : 0xC160
+  SizeOfStackReserve           : 0x80000
+  SizeOfStackCommit            : 0x11000
+  SizeOfHeapReserve            : 0x100000
+  SizeOfHeapCommit             : 0x1000
+  LoaderFlags                  : 0x0
+  NumberOfRvaAndSizes          : 0x10
+
+ Data Directories:
+ + Directory[0]:
+   RVA  : 0x0
+   Size : 0x0
+ + Directory[1]:
+   RVA  : 0x308D0
+   Size : 0x3FC
+ + Directory[2]:
+   RVA  : 0x3A000
+   Size : 0x1E1D0
+ + Directory[3]:
+   RVA  : 0x37000
+   Size : 0x120C
+ + Directory[4]:
+   RVA  : 0x0
+   Size : 0x0
+ + Directory[5]:
+   RVA  : 0x59000
+   Size : 0x2F8
+ + Directory[6]:
+   RVA  : 0x2E2F0
+   Size : 0x70
+ + Directory[7]:
+   RVA  : 0x0
+   Size : 0x0
+ + Directory[8]:
+   RVA  : 0x0
+   Size : 0x0
+ + Directory[9]:
+   RVA  : 0x0
+   Size : 0x0
+ + Directory[10]:
+   RVA  : 0x29790
+   Size : 0x148
+ + Directory[11]:
+   RVA  : 0x0
+   Size : 0x0
+ + Directory[12]:
+   RVA  : 0x298D8
+   Size : 0xB68
+ + Directory[13]:
+   RVA  : 0x302F0
+   Size : 0xE0
+ + Directory[14]:
+   RVA  : 0x0
+   Size : 0x0
+ + Directory[15]:
+   RVA  : 0x0
+   Size : 0x0
+
+Section Headers 
+ + .text:
+    VirtualSize          : 0x266E2
+    VirtualAddress       : 0x1000
+    SizeOfRawData        : 0x27000
+    PointerToRawData     : 0x1000
+    PointerToRelocations : 0x0
+    PointerToLinenumbers : 0x0
+    NumberOfRelocations  : 0x0
+    NumberOfLinenumbers  : 0x0
+    Characteristics      : 0x60000020
+
+ + fothk:
+    VirtualSize          : 0x1000
+    VirtualAddress       : 0x28000
+    SizeOfRawData        : 0x1000
+    PointerToRawData     : 0x28000
+    PointerToRelocations : 0x0
+    PointerToLinenumbers : 0x0
+    NumberOfRelocations  : 0x0
+    NumberOfLinenumbers  : 0x0
+    Characteristics      : 0x60000020
+
+ + .rdata:
+    VirtualSize          : 0xA5D8
+    VirtualAddress       : 0x29000
+    SizeOfRawData        : 0xB000
+    PointerToRawData     : 0x29000
+    PointerToRelocations : 0x0
+    PointerToLinenumbers : 0x0
+    NumberOfRelocations  : 0x0
+    NumberOfLinenumbers  : 0x0
+    Characteristics      : 0x40000040
+
+ + .data:
+    VirtualSize          : 0x2740
+    VirtualAddress       : 0x34000
+    SizeOfRawData        : 0x1000
+    PointerToRawData     : 0x34000
+    PointerToRelocations : 0x0
+    PointerToLinenumbers : 0x0
+    NumberOfRelocations  : 0x0
+    NumberOfLinenumbers  : 0x0
+    Characteristics      : 0xC0000040
+
+ + .pdata:
+    VirtualSize          : 0x120C
+    VirtualAddress       : 0x37000
+    SizeOfRawData        : 0x2000
+    PointerToRawData     : 0x35000
+    PointerToRelocations : 0x0
+    PointerToLinenumbers : 0x0
+    NumberOfRelocations  : 0x0
+    NumberOfLinenumbers  : 0x0
+    Characteristics      : 0x40000040
+
+ + .didat:
+    VirtualSize          : 0xF8
+    VirtualAddress       : 0x39000
+    SizeOfRawData        : 0x1000
+    PointerToRawData     : 0x37000
+    PointerToRelocations : 0x0
+    PointerToLinenumbers : 0x0
+    NumberOfRelocations  : 0x0
+    NumberOfLinenumbers  : 0x0
+    Characteristics      : 0xC0000040
+
+ + .rsrc:
+    VirtualSize          : 0x1E1D0
+    VirtualAddress       : 0x3A000
+    SizeOfRawData        : 0x1F000
+    PointerToRawData     : 0x38000
+    PointerToRelocations : 0x0
+    PointerToLinenumbers : 0x0
+    NumberOfRelocations  : 0x0
+    NumberOfLinenumbers  : 0x0
+    Characteristics      : 0x40000040
+
+ + .reloc:
+    VirtualSize          : 0x350
+    VirtualAddress       : 0x59000
+    SizeOfRawData        : 0x1000
+    PointerToRawData     : 0x57000
+    PointerToRelocations : 0x0
+    PointerToLinenumbers : 0x0
+    NumberOfRelocations  : 0x0
+    NumberOfLinenumbers  : 0x0
+    Characteristics      : 0x42000040
+
+
+Import Table 
+ + GDI32.dll:
+    Characteristics    : 0x30D30
+    OriginalFirstThunk : 0x30D30
+    TimeDateStamp      : 0x0
+    ForwarderChain     : 0x0
+    Name               : 0x319B4
+    FirstThunk         : 0x29938
+
+    + Entry:
+      Hint RVA: 0x31904
+      Hint: 0x398
+      Name: SetMapMode
+    + Entry:
+      Hint RVA: 0x31912
+      Hint: 0x3AC
+      Name: SetViewportExtEx
+    + Entry:
+      Hint RVA: 0x31926
+      Hint: 0x3B0
+      Name: SetWindowExtEx
+    + Entry:
+      Hint RVA: 0x31938
+      Hint: 0x2FE
+      Name: LPtoDP
+    + Entry:
+      Hint RVA: 0x31942
+      Hint: 0x383
+      Name: SetBkMode
+    + Entry:
+      Hint RVA: 0x3194E
+      Hint: 0x2EE
+      Name: GetTextMetricsW
+    + Entry:
+      Hint RVA: 0x318F8
+      Hint: 0x3BD
+      Name: TextOutW
+    + Entry:
+      Hint RVA: 0x3196A
+      Hint: 0x0
+      Name: AbortDoc
+    + Entry:
+      Hint RVA: 0x31976
+      Hint: 0x19E
+      Name: EndDoc
+    + Entry:
+      Hint RVA: 0x31980
+      Hint: 0x37D
+      Name: SetAbortProc
+    + Entry:
+      Hint RVA: 0x31990
+      Hint: 0x3B4
+      Name: StartDocW
+    + Entry:
+      Hint RVA: 0x3199C
+      Hint: 0x3B6
+      Name: StartPage
+    + Entry:
+      Hint RVA: 0x319A8
+      Hint: 0x34
+      Name: CreateDCW
+    + Entry:
+      Hint RVA: 0x318EA
+      Hint: 0x1D7
+      Name: EnumFontsW
+    + Entry:
+      Hint RVA: 0x318DA
+      Hint: 0x2EC
+      Name: GetTextFaceW
+    + Entry:
+      Hint RVA: 0x318CA
+      Hint: 0x291
+      Name: GetDeviceCaps
+    + Entry:
+      Hint RVA: 0x318BE
+      Hint: 0x191
+      Name: DeleteDC
+    + Entry:
+      Hint RVA: 0x318AE
+      Hint: 0x194
+      Name: DeleteObject
+    + Entry:
+      Hint RVA: 0x318A0
+      Hint: 0x382
+      Name: SetBkColor
+    + Entry:
+      Hint RVA: 0x3188C
+      Hint: 0x5A
+      Name: CreateSolidBrush
+    + Entry:
+      Hint RVA: 0x31874
+      Hint: 0x2E6
+      Name: GetTextExtentPoint32W
+    + Entry:
+      Hint RVA: 0x31864
+      Hint: 0x37B
+      Name: SelectObject
+    + Entry:
+      Hint RVA: 0x3184E
+      Hint: 0x31
+      Name: CreateCompatibleDC
+    + Entry:
+      Hint RVA: 0x31960
+      Hint: 0x1A1
+      Name: EndPage
+    + Entry:
+      Hint RVA: 0x31838
+      Hint: 0x43
+      Name: CreateFontIndirectW
+ + USER32.dll:
+    Characteristics    : 0x30E00
+    OriginalFirstThunk : 0x30E00
+    TimeDateStamp      : 0x0
+    ForwarderChain     : 0x0
+    Name               : 0x31F8A
+    FirstThunk         : 0x29A08
+
+    + Entry:
+      Hint RVA: 0x31A84
+      Hint: 0x2BC
+      Name: PostQuitMessage
+    + Entry:
+      Hint RVA: 0x31A96
+      Hint: 0x12
+      Name: BeginPaint
+    + Entry:
+      Hint RVA: 0x31AA4
+      Hint: 0xF9
+      Name: EndPaint
+    + Entry:
+      Hint RVA: 0x31AB0
+      Hint: 0x116
+      Name: FillRect
+    + Entry:
+      Hint RVA: 0x31ABC
+      Hint: 0xE1
+      Name: DrawTextW
+    + Entry:
+      Hint RVA: 0x31AC8
+      Hint: 0xD5
+      Name: DrawFocusRect
+    + Entry:
+      Hint RVA: 0x31AD8
+      Hint: 0xAA
+      Name: DefWindowProcW
+    + Entry:
+      Hint RVA: 0x31AEA
+      Hint: 0x3CA
+      Name: TrackMouseEvent
+    + Entry:
+      Hint RVA: 0x31AFC
+      Hint: 0x22F
+      Name: InvalidateRect
+    + Entry:
+      Hint RVA: 0x31B0E
+      Hint: 0xB4
+      Name: DestroyIcon
+    + Entry:
+      Hint RVA: 0x31B1C
+      Hint: 0x382
+      Name: SetThreadDpiAwarenessContext
+    + Entry:
+      Hint RVA: 0x31B3C
+      Hint: 0xBD
+      Name: DialogBoxParamW
+    + Entry:
+      Hint RVA: 0x31B4E
+      Hint: 0x268
+      Name: LoadIconW
+    + Entry:
+      Hint RVA: 0x31B5A
+      Hint: 0x160
+      Name: GetFocus
+    + Entry:
+      Hint RVA: 0x31B66
+      Hint: 0x298
+      Name: MessageBoxW
+    + Entry:
+      Hint RVA: 0x31B74
+      Hint: 0x3B0
+      Name: ShowWindow
+    + Entry:
+      Hint RVA: 0x31B82
+      Hint: 0x33E
+      Name: SetCursor
+    + Entry:
+      Hint RVA: 0x31B8E
+      Hint: 0x32F
+      Name: SetActiveWindow
+    + Entry:
+      Hint RVA: 0x31BA0
+      Hint: 0xED
+      Name: EnableMenuItem
+    + Entry:
+      Hint RVA: 0x31BB2
+      Hint: 0x242
+      Name: IsIconic
+    + Entry:
+      Hint RVA: 0x31BBE
+      Hint: 0x34D
+      Name: SetFocus
+    + Entry:
+      Hint RVA: 0x31BCA
+      Hint: 0x290
+      Name: MessageBeep
+    + Entry:
+      Hint RVA: 0x31BD8
+      Hint: 0x161
+      Name: GetForegroundWindow
+    + Entry:
+      Hint RVA: 0x31BEE
+      Hint: 0x154
+      Name: GetDlgCtrlID
+    + Entry:
+      Hint RVA: 0x31BFE
+      Hint: 0x397
+      Name: SetWindowPos
+    + Entry:
+      Hint RVA: 0x31C0E
+      Hint: 0x2E9
+      Name: RedrawWindow
+    + Entry:
+      Hint RVA: 0x31C1E
+      Hint: 0x172
+      Name: GetKeyboardLayout
+    + Entry:
+      Hint RVA: 0x31C32
+      Hint: 0x35
+      Name: CharNextW
+    + Entry:
+      Hint RVA: 0x31C3E
+      Hint: 0x38A
+      Name: SetWinEventHook
+    + Entry:
+      Hint RVA: 0x31C50
+      Hint: 0x192
+      Name: GetMessageW
+    + Entry:
+      Hint RVA: 0x31C5E
+      Hint: 0x3CF
+      Name: TranslateAcceleratorW
+    + Entry:
+      Hint RVA: 0x31C76
+      Hint: 0x23E
+      Name: IsDialogMessageW
+    + Entry:
+      Hint RVA: 0x31C8A
+      Hint: 0x3D1
+      Name: TranslateMessage
+    + Entry:
+      Hint RVA: 0x31C9E
+      Hint: 0xC0
+      Name: DispatchMessageW
+    + Entry:
+      Hint RVA: 0x31CB2
+      Hint: 0x3D4
+      Name: UnhookWinEvent
+    + Entry:
+      Hint RVA: 0x31CC4
+      Hint: 0x39C
+      Name: SetWindowTextW
+    + Entry:
+      Hint RVA: 0x31CD6
+      Hint: 0x180
+      Name: GetMenu
+    + Entry:
+      Hint RVA: 0x31CE0
+      Hint: 0x1CF
+      Name: GetSubMenu
+    + Entry:
+      Hint RVA: 0x31CEE
+      Hint: 0x2A9
+      Name: OpenClipboard
+    + Entry:
+      Hint RVA: 0x31CFE
+      Hint: 0x23B
+      Name: IsClipboardFormatAvailable
+    + Entry:
+      Hint RVA: 0x31D1C
+      Hint: 0x50
+      Name: CloseClipboard
+    + Entry:
+      Hint RVA: 0x31D2E
+      Hint: 0x44
+      Name: CheckMenuItem
+    + Entry:
+      Hint RVA: 0x31D3E
+      Hint: 0x34A
+      Name: SetDlgItemTextW
+    + Entry:
+      Hint RVA: 0x31D50
+      Hint: 0x158
+      Name: GetDlgItemTextW
+    + Entry:
+      Hint RVA: 0x31D62
+      Hint: 0xF7
+      Name: EndDialog
+    + Entry:
+      Hint RVA: 0x31D6E
+      Hint: 0x323
+      Name: SendDlgItemMessageW
+    + Entry:
+      Hint RVA: 0x31D84
+      Hint: 0x376
+      Name: SetScrollPos
+    + Entry:
+      Hint RVA: 0x31D94
+      Hint: 0x3EB
+      Name: UpdateWindow
+    + Entry:
+      Hint RVA: 0x31DA4
+      Hint: 0x1FB
+      Name: GetWindowPlacement
+    + Entry:
+      Hint RVA: 0x31DBA
+      Hint: 0x396
+      Name: SetWindowPlacement
+    + Entry:
+      Hint RVA: 0x31DD0
+      Hint: 0x40
+      Name: CharUpperW
+    + Entry:
+      Hint RVA: 0x31DDE
+      Hint: 0x1D3
+      Name: GetSystemMenu
+    + Entry:
+      Hint RVA: 0x31DEE
+      Hint: 0x260
+      Name: LoadAcceleratorsW
+    + Entry:
+      Hint RVA: 0x31E02
+      Hint: 0x394
+      Name: SetWindowLongW
+    + Entry:
+      Hint RVA: 0x31E14
+      Hint: 0x29D
+      Name: MonitorFromWindow
+    + Entry:
+      Hint RVA: 0x31E28
+      Hint: 0x30E
+      Name: RegisterWindowMessageW
+    + Entry:
+      Hint RVA: 0x31E42
+      Hint: 0x266
+      Name: LoadCursorW
+    + Entry:
+      Hint RVA: 0x31E50
+      Hint: 0x26A
+      Name: LoadImageW
+    + Entry:
+      Hint RVA: 0x31A5E
+      Hint: 0x2ED
+      Name: RegisterClassExW
+    + Entry:
+      Hint RVA: 0x31E76
+      Hint: 0x1F6
+      Name: GetWindowLongW
+    + Entry:
+      Hint RVA: 0x31E88
+      Hint: 0x2B7
+      Name: PeekMessageW
+    + Entry:
+      Hint RVA: 0x31E98
+      Hint: 0x204
+      Name: GetWindowTextW
+    + Entry:
+      Hint RVA: 0x31EAA
+      Hint: 0xF3
+      Name: EnableWindow
+    + Entry:
+      Hint RVA: 0x31EBA
+      Hint: 0x6C
+      Name: CreateDialogParamW
+    + Entry:
+      Hint RVA: 0x31ED0
+      Hint: 0xE0
+      Name: DrawTextExW
+    + Entry:
+      Hint RVA: 0x31EDE
+      Hint: 0x254
+      Name: IsWindow
+    + Entry:
+      Hint RVA: 0x31EEA
+      Hint: 0x6A
+      Name: CreateDialogIndirectParamW
+    + Entry:
+      Hint RVA: 0x31F08
+      Hint: 0x1BE
+      Name: GetPropW
+    + Entry:
+      Hint RVA: 0x31F14
+      Hint: 0x372
+      Name: SetPropW
+    + Entry:
+      Hint RVA: 0x31F20
+      Hint: 0x155
+      Name: GetDlgItem
+    + Entry:
+      Hint RVA: 0x31F2E
+      Hint: 0x316
+      Name: RemovePropW
+    + Entry:
+      Hint RVA: 0x31F3C
+      Hint: 0x43
+      Name: CheckDlgButton
+    + Entry:
+      Hint RVA: 0x31F4E
+      Hint: 0x48
+      Name: CheckRadioButton
+    + Entry:
+      Hint RVA: 0x31F62
+      Hint: 0x23F
+      Name: IsDlgButtonChecked
+    + Entry:
+      Hint RVA: 0x31F78
+      Hint: 0x2A2
+      Name: NotifyWinEvent
+    + Entry:
+      Hint RVA: 0x31A72
+      Hint: 0x79
+      Name: CreateWindowExW
+    + Entry:
+      Hint RVA: 0x31E5E
+      Hint: 0x203
+      Name: GetWindowTextLengthW
+    + Entry:
+      Hint RVA: 0x319BE
+      Hint: 0x139
+      Name: GetClientRect
+    + Entry:
+      Hint RVA: 0x319CE
+      Hint: 0xB8
+      Name: DestroyWindow
+    + Entry:
+      Hint RVA: 0x319DE
+      Hint: 0x15D
+      Name: GetDpiForWindow
+    + Entry:
+      Hint RVA: 0x319F0
+      Hint: 0x3C0
+      Name: SystemParametersInfoForDpi
+    + Entry:
+      Hint RVA: 0x31A0E
+      Hint: 0x32C
+      Name: SendMessageW
+    + Entry:
+      Hint RVA: 0x31A1E
+      Hint: 0x29E
+      Name: MoveWindow
+    + Entry:
+      Hint RVA: 0x31A2C
+      Hint: 0x14A
+      Name: GetDC
+    + Entry:
+      Hint RVA: 0x31A50
+      Hint: 0x275
+      Name: LoadStringW
+    + Entry:
+      Hint RVA: 0x31A40
+      Hint: 0x2BB
+      Name: PostMessageW
+    + Entry:
+      Hint RVA: 0x31A34
+      Hint: 0x310
+      Name: ReleaseDC
+ + api-ms-win-crt-string-l1-1-0.dll:
+    Characteristics    : 0x317B0
+    OriginalFirstThunk : 0x317B0
+    TimeDateStamp      : 0x0
+    ForwarderChain     : 0x0
+    Name               : 0x31FF2
+    FirstThunk         : 0x2A3B8
+
+    + Entry:
+      Hint RVA: 0x335B0
+      Hint: 0x9E
+      Name: wcscmp
+    + Entry:
+      Hint RVA: 0x31F96
+      Hint: 0xA9
+      Name: wcsnlen
+    + Entry:
+      Hint RVA: 0x322FC
+      Hint: 0x83
+      Name: memset
+ + api-ms-win-crt-runtime-l1-1-0.dll:
+    Characteristics    : 0x31788
+    OriginalFirstThunk : 0x31788
+    TimeDateStamp      : 0x0
+    ForwarderChain     : 0x0
+    Name               : 0x32014
+    FirstThunk         : 0x2A390
+
+    + Entry:
+      Hint RVA: 0x31FBA
+      Hint: 0x15
+      Name: _c_exit
+    + Entry:
+      Hint RVA: 0x31FAC
+      Hint: 0x37
+      Name: _initterm_e
+    + Entry:
+      Hint RVA: 0x31FA0
+      Hint: 0x36
+      Name: _initterm
+    + Entry:
+      Hint RVA: 0x31FC4
+      Hint: 0x3D
+      Name: _register_thread_local_exe_atexit_callback
+ + api-ms-win-crt-private-l1-1-0.dll:
+    Characteristics    : 0x31648
+    OriginalFirstThunk : 0x31648
+    TimeDateStamp      : 0x0
+    ForwarderChain     : 0x0
+    Name               : 0x3231C
+    FirstThunk         : 0x2A250
+
+    + Entry:
+      Hint RVA: 0x32158
+      Hint: 0x119
+      Name: _o__get_wide_winmain_command_line
+    + Entry:
+      Hint RVA: 0x3217C
+      Hint: 0x13D
+      Name: _o__initialize_onexit_table
+    + Entry:
+      Hint RVA: 0x3219A
+      Hint: 0x13E
+      Name: _o__initialize_wide_environment
+    + Entry:
+      Hint RVA: 0x321BC
+      Hint: 0x13F
+      Name: _o__invalid_parameter_noinfo
+    + Entry:
+      Hint RVA: 0x321DC
+      Hint: 0x243
+      Name: _o__purecall
+    + Entry:
+      Hint RVA: 0x321EC
+      Hint: 0x251
+      Name: _o__register_onexit_function
+    + Entry:
+      Hint RVA: 0x3220C
+      Hint: 0x25A
+      Name: _o__seh_filter_exe
+    + Entry:
+      Hint RVA: 0x32222
+      Hint: 0x25C
+      Name: _o__set_app_type
+    + Entry:
+      Hint RVA: 0x32236
+      Hint: 0x25F
+      Name: _o__set_fmode
+    + Entry:
+      Hint RVA: 0x32246
+      Hint: 0x262
+      Name: _o__set_new_mode
+    + Entry:
+      Hint RVA: 0x3225A
+      Hint: 0x2CD
+      Name: _o__wcsicmp
+    + Entry:
+      Hint RVA: 0x32268
+      Hint: 0x337
+      Name: _o__wtol
+    + Entry:
+      Hint RVA: 0x32274
+      Hint: 0x36D
+      Name: _o_exit
+    + Entry:
+      Hint RVA: 0x3227E
+      Hint: 0x38D
+      Name: _o_free
+    + Entry:
+      Hint RVA: 0x32288
+      Hint: 0x3B1
+      Name: _o_iswdigit
+    + Entry:
+      Hint RVA: 0x32296
+      Hint: 0x3D8
+      Name: _o_malloc
+    + Entry:
+      Hint RVA: 0x322A2
+      Hint: 0x436
+      Name: _o_terminate
+    + Entry:
+      Hint RVA: 0x322B2
+      Hint: 0x12
+      Name: __CxxFrameHandler3
+    + Entry:
+      Hint RVA: 0x322C8
+      Hint: 0x20
+      Name: __current_exception
+    + Entry:
+      Hint RVA: 0x322DE
+      Hint: 0x21
+      Name: __current_exception_context
+    + Entry:
+      Hint RVA: 0x32306
+      Hint: 0x1
+      Name: _CxxThrowException
+    + Entry:
+      Hint RVA: 0x3212E
+      Hint: 0xA7
+      Name: _o__crt_atexit
+    + Entry:
+      Hint RVA: 0x320AC
+      Hint: 0x70
+      Name: _o___stdio_common_vswprintf
+    + Entry:
+      Hint RVA: 0x32114
+      Hint: 0xA1
+      Name: _o__configure_wide_argv
+    + Entry:
+      Hint RVA: 0x3208E
+      Hint: 0x5F
+      Name: _o___std_exception_destroy
+    + Entry:
+      Hint RVA: 0x32074
+      Hint: 0x5E
+      Name: _o___std_exception_copy
+    + Entry:
+      Hint RVA: 0x320FA
+      Hint: 0x9F
+      Name: _o__configthreadlocale
+    + Entry:
+      Hint RVA: 0x32062
+      Hint: 0x53
+      Name: _o___p__commode
+    + Entry:
+      Hint RVA: 0x3214C
+      Hint: 0xC7
+      Name: _o__exit
+    + Entry:
+      Hint RVA: 0x320EE
+      Hint: 0x93
+      Name: _o__cexit
+    + Entry:
+      Hint RVA: 0x320DE
+      Hint: 0x91
+      Name: _o__callnewh
+    + Entry:
+      Hint RVA: 0x320CA
+      Hint: 0x8F
+      Name: _o__beginthreadex
+    + Entry:
+      Hint RVA: 0x32140
+      Hint: 0xC0
+      Name: _o__errno
+    + Entry:
+      Hint RVA: 0x32058
+      Hint: 0x46C
+      Name: wcsrchr
+    + Entry:
+      Hint RVA: 0x3204E
+      Hint: 0x46B
+      Name: wcschr
+    + Entry:
+      Hint RVA: 0x32036
+      Hint: 0xC
+      Name: __C_specific_handler
+    + Entry:
+      Hint RVA: 0x335BA
+      Hint: 0x462
+      Name: memcmp
+    + Entry:
+      Hint RVA: 0x335C4
+      Hint: 0x463
+      Name: memcpy
+    + Entry:
+      Hint RVA: 0x335CE
+      Hint: 0x464
+      Name: memmove
+ + api-ms-win-core-libraryloader-l1-2-0.dll:
+    Characteristics    : 0x312D0
+    OriginalFirstThunk : 0x312D0
+    TimeDateStamp      : 0x0
+    ForwarderChain     : 0x0
+    Name               : 0x32E4E
+    FirstThunk         : 0x29ED8
+
+    + Entry:
+      Hint RVA: 0x32C36
+      Hint: 0x1E
+      Name: LockResource
+    + Entry:
+      Hint RVA: 0x323B2
+      Hint: 0x14
+      Name: GetModuleHandleExW
+    + Entry:
+      Hint RVA: 0x32C24
+      Hint: 0xA
+      Name: FindResourceExW
+    + Entry:
+      Hint RVA: 0x32C56
+      Hint: 0x1B
+      Name: LoadResource
+    + Entry:
+      Hint RVA: 0x32C66
+      Hint: 0x12
+      Name: GetModuleHandleA
+    + Entry:
+      Hint RVA: 0x3233E
+      Hint: 0x10
+      Name: GetModuleFileNameA
+    + Entry:
+      Hint RVA: 0x32D8E
+      Hint: 0xD
+      Name: FreeLibrary
+    + Entry:
+      Hint RVA: 0x3256A
+      Hint: 0x16
+      Name: GetProcAddress
+    + Entry:
+      Hint RVA: 0x325E6
+      Hint: 0x15
+      Name: GetModuleHandleW
+    + Entry:
+      Hint RVA: 0x32882
+      Hint: 0x11
+      Name: GetModuleFileNameW
+ + api-ms-win-core-synch-l1-1-0.dll:
+    Characteristics    : 0x31510
+    OriginalFirstThunk : 0x31510
+    TimeDateStamp      : 0x0
+    ForwarderChain     : 0x0
+    Name               : 0x32E78
+    FirstThunk         : 0x2A118
+
+    + Entry:
+      Hint RVA: 0x323C8
+      Hint: 0x1D
+      Name: LeaveCriticalSection
+    + Entry:
+      Hint RVA: 0x323E0
+      Hint: 0x1A
+      Name: InitializeCriticalSectionEx
+    + Entry:
+      Hint RVA: 0x32420
+      Hint: 0x36
+      Name: WaitForSingleObject
+    + Entry:
+      Hint RVA: 0x3239E
+      Hint: 0x26
+      Name: ReleaseSemaphore
+    + Entry:
+      Hint RVA: 0x3247E
+      Hint: 0x24
+      Name: ReleaseSRWLockExclusive
+    + Entry:
+      Hint RVA: 0x32386
+      Hint: 0x11
+      Name: EnterCriticalSection
+    + Entry:
+      Hint RVA: 0x326F6
+      Hint: 0x29
+      Name: SetEvent
+    + Entry:
+      Hint RVA: 0x326C8
+      Hint: 0x5
+      Name: CreateEventExW
+    + Entry:
+      Hint RVA: 0x324C6
+      Hint: 0x0
+      Name: AcquireSRWLockExclusive
+    + Entry:
+      Hint RVA: 0x3244C
+      Hint: 0x23
+      Name: ReleaseMutex
+    + Entry:
+      Hint RVA: 0x324E0
+      Hint: 0x37
+      Name: WaitForSingleObjectEx
+    + Entry:
+      Hint RVA: 0x325A6
+      Hint: 0xF
+      Name: DeleteCriticalSection
+    + Entry:
+      Hint RVA: 0x3258E
+      Hint: 0x1
+      Name: AcquireSRWLockShared
+    + Entry:
+      Hint RVA: 0x3257C
+      Hint: 0x9
+      Name: CreateMutexExW
+    + Entry:
+      Hint RVA: 0x324F8
+      Hint: 0x21
+      Name: OpenSemaphoreW
+    + Entry:
+      Hint RVA: 0x3252E
+      Hint: 0x25
+      Name: ReleaseSRWLockShared
+    + Entry:
+      Hint RVA: 0x32354
+      Hint: 0xB
+      Name: CreateSemaphoreExW
+ + api-ms-win-core-heap-l1-1-0.dll:
+    Characteristics    : 0x31228
+    OriginalFirstThunk : 0x31228
+    TimeDateStamp      : 0x0
+    ForwarderChain     : 0x0
+    Name               : 0x32E9A
+    FirstThunk         : 0x29E30
+
+    + Entry:
+      Hint RVA: 0x325D4
+      Hint: 0x0
+      Name: GetProcessHeap
+    + Entry:
+      Hint RVA: 0x3255E
+      Hint: 0x2
+      Name: HeapAlloc
+    + Entry:
+      Hint RVA: 0x327E8
+      Hint: 0xA
+      Name: HeapSetInformation
+    + Entry:
+      Hint RVA: 0x3236A
+      Hint: 0x6
+      Name: HeapFree
+ + api-ms-win-core-errorhandling-l1-1-0.dll:
+    Characteristics    : 0x31178
+    OriginalFirstThunk : 0x31178
+    TimeDateStamp      : 0x0
+    ForwarderChain     : 0x0
+    Name               : 0x32EBA
+    FirstThunk         : 0x29D80
+
+    + Entry:
+      Hint RVA: 0x32CBC
+      Hint: 0x11
+      Name: UnhandledExceptionFilter
+    + Entry:
+      Hint RVA: 0x32CD8
+      Hint: 0xF
+      Name: SetUnhandledExceptionFilter
+    + Entry:
+      Hint RVA: 0x3265A
+      Hint: 0x7
+      Name: RaiseException
+    + Entry:
+      Hint RVA: 0x3246E
+      Hint: 0x5
+      Name: GetLastError
+    + Entry:
+      Hint RVA: 0x32376
+      Hint: 0xD
+      Name: SetLastError
+ + api-ms-win-core-threadpool-l1-2-0.dll:
+    Characteristics    : 0x315B8
+    OriginalFirstThunk : 0x315B8
+    TimeDateStamp      : 0x0
+    ForwarderChain     : 0x0
+    Name               : 0x32EE4
+    FirstThunk         : 0x2A1C0
+
+    + Entry:
+      Hint RVA: 0x324AE
+      Hint: 0x6
+      Name: CloseThreadpoolTimer
+    + Entry:
+      Hint RVA: 0x323FE
+      Hint: 0x22
+      Name: WaitForThreadpoolTimerCallbacks
+    + Entry:
+      Hint RVA: 0x32546
+      Hint: 0xC
+      Name: CreateThreadpoolTimer
+    + Entry:
+      Hint RVA: 0x32518
+      Hint: 0x1A
+      Name: SetThreadpoolTimer
+ + api-ms-win-core-processthreads-l1-1-0.dll:
+    Characteristics    : 0x313B0
+    OriginalFirstThunk : 0x313B0
+    TimeDateStamp      : 0x0
+    ForwarderChain     : 0x0
+    Name               : 0x32F0A
+    FirstThunk         : 0x29FB8
+
+    + Entry:
+      Hint RVA: 0x327AC
+      Hint: 0xC
+      Name: GetCurrentProcess
+    + Entry:
+      Hint RVA: 0x32798
+      Hint: 0x34
+      Name: OpenProcessToken
+    + Entry:
+      Hint RVA: 0x32C12
+      Hint: 0x3
+      Name: CreateProcessW
+    + Entry:
+      Hint RVA: 0x32CF6
+      Hint: 0x55
+      Name: TerminateProcess
+    + Entry:
+      Hint RVA: 0x32436
+      Hint: 0x11
+      Name: GetCurrentThreadId
+    + Entry:
+      Hint RVA: 0x32A76
+      Hint: 0x22
+      Name: GetStartupInfoW
+    + Entry:
+      Hint RVA: 0x325BE
+      Hint: 0xD
+      Name: GetCurrentProcessId
+ + api-ms-win-core-localization-l1-2-0.dll:
+    Characteristics    : 0x31338
+    OriginalFirstThunk : 0x31338
+    TimeDateStamp      : 0x0
+    ForwarderChain     : 0x0
+    Name               : 0x32F34
+    FirstThunk         : 0x29F40
+
+    + Entry:
+      Hint RVA: 0x3245C
+      Hint: 0x9
+      Name: FormatMessageW
+    + Entry:
+      Hint RVA: 0x32AA8
+      Hint: 0x6
+      Name: FindNLSString
+    + Entry:
+      Hint RVA: 0x32730
+      Hint: 0x15
+      Name: GetLocaleInfoW
+    + Entry:
+      Hint RVA: 0x3275C
+      Hint: 0xA
+      Name: GetACP
+ + api-ms-win-core-debug-l1-1-0.dll:
+    Characteristics    : 0x31138
+    OriginalFirstThunk : 0x31138
+    TimeDateStamp      : 0x0
+    ForwarderChain     : 0x0
+    Name               : 0x32F5C
+    FirstThunk         : 0x29D40
+
+    + Entry:
+      Hint RVA: 0x32608
+      Hint: 0x5
+      Name: IsDebuggerPresent
+    + Entry:
+      Hint RVA: 0x32498
+      Hint: 0x7
+      Name: OutputDebugStringW
+    + Entry:
+      Hint RVA: 0x325FA
+      Hint: 0x4
+      Name: DebugBreak
+ + api-ms-win-core-handle-l1-1-0.dll:
+    Characteristics    : 0x31218
+    OriginalFirstThunk : 0x31218
+    TimeDateStamp      : 0x0
+    ForwarderChain     : 0x0
+    Name               : 0x32F7E
+    FirstThunk         : 0x29E20
+
+    + Entry:
+      Hint RVA: 0x3250A
+      Hint: 0x0
+      Name: CloseHandle
+ + api-ms-win-core-com-l1-1-0.dll:
+    Characteristics    : 0x310D0
+    OriginalFirstThunk : 0x310D0
+    TimeDateStamp      : 0x0
+    ForwarderChain     : 0x0
+    Name               : 0x32FA0
+    FirstThunk         : 0x29CD8
+
+    + Entry:
+      Hint RVA: 0x3261C
+      Hint: 0x43
+      Name: CoTaskMemFree
+    + Entry:
+      Hint RVA: 0x32766
+      Hint: 0x9
+      Name: CoCreateInstance
+    + Entry:
+      Hint RVA: 0x327FE
+      Hint: 0x28
+      Name: CoInitializeEx
+    + Entry:
+      Hint RVA: 0x32D9C
+      Hint: 0x50
+      Name: PropVariantClear
+    + Entry:
+      Hint RVA: 0x32810
+      Hint: 0x46
+      Name: CoUninitialize
+    + Entry:
+      Hint RVA: 0x326DA
+      Hint: 0x49
+      Name: CoWaitForMultipleHandles
+    + Entry:
+      Hint RVA: 0x32B6E
+      Hint: 0x8
+      Name: CoCreateGuid
+    + Entry:
+      Hint RVA: 0x3268C
+      Hint: 0x42
+      Name: CoTaskMemAlloc
+    + Entry:
+      Hint RVA: 0x32702
+      Hint: 0x7
+      Name: CoCreateFreeThreadedMarshaler
+ + api-ms-win-core-registry-l1-1-1.dll:
+    Characteristics    : 0x31478
+    OriginalFirstThunk : 0x31478
+    TimeDateStamp      : 0x0
+    ForwarderChain     : 0x0
+    Name               : 0x32FC0
+    FirstThunk         : 0x2A080
+
+    + Entry:
+      Hint RVA: 0x3262C
+      Hint: 0x2C
+      Name: RegSetKeyValueW
+ + api-ms-win-core-largeinteger-l1-1-0.dll:
+    Characteristics    : 0x312C0
+    OriginalFirstThunk : 0x312C0
+    TimeDateStamp      : 0x0
+    ForwarderChain     : 0x0
+    Name               : 0x32FE4
+    FirstThunk         : 0x29EC8
+
+    + Entry:
+      Hint RVA: 0x3263E
+      Hint: 0x47
+      Name: MulDiv
+ + api-ms-win-core-shlwapi-legacy-l1-1-0.dll:
+    Characteristics    : 0x314B8
+    OriginalFirstThunk : 0x314B8
+    TimeDateStamp      : 0x0
+    ForwarderChain     : 0x0
+    Name               : 0x3300C
+    FirstThunk         : 0x2A0C0
+
+    + Entry:
+      Hint RVA: 0x32958
+      Hint: 0x16
+      Name: PathFindExtensionW
+    + Entry:
+      Hint RVA: 0x3277A
+      Hint: 0x22
+      Name: PathIsFileSpecW
+    + Entry:
+      Hint RVA: 0x32648
+      Hint: 0x14
+      Name: PathFileExistsW
+ + api-ms-win-core-winrt-string-l1-1-0.dll:
+    Characteristics    : 0x31620
+    OriginalFirstThunk : 0x31620
+    TimeDateStamp      : 0x0
+    ForwarderChain     : 0x0
+    Name               : 0x33036
+    FirstThunk         : 0x2A228
+
+    + Entry:
+      Hint RVA: 0x32E1C
+      Hint: 0xC
+      Name: WindowsDeleteString
+    + Entry:
+      Hint RVA: 0x32DB0
+      Hint: 0xA
+      Name: WindowsCreateString
+    + Entry:
+      Hint RVA: 0x3266C
+      Hint: 0xB
+      Name: WindowsCreateStringReference
+    + Entry:
+      Hint RVA: 0x32E32
+      Hint: 0x10
+      Name: WindowsGetStringRawBuffer
+ + api-ms-win-core-registry-l1-1-0.dll:
+    Characteristics    : 0x31428
+    OriginalFirstThunk : 0x31428
+    TimeDateStamp      : 0x0
+    ForwarderChain     : 0x0
+    Name               : 0x3305E
+    FirstThunk         : 0x2A030
+
+    + Entry:
+      Hint RVA: 0x32A28
+      Hint: 0x25
+      Name: RegQueryValueExW
+    + Entry:
+      Hint RVA: 0x3269E
+      Hint: 0x14
+      Name: RegGetValueW
+    + Entry:
+      Hint RVA: 0x32A16
+      Hint: 0x2E
+      Name: RegSetValueExW
+    + Entry:
+      Hint RVA: 0x32B1C
+      Hint: 0x10
+      Name: RegEnumValueW
+    + Entry:
+      Hint RVA: 0x32B08
+      Hint: 0x21
+      Name: RegQueryInfoKeyW
+    + Entry:
+      Hint RVA: 0x32AE4
+      Hint: 0x3
+      Name: RegCreateKeyExW
+    + Entry:
+      Hint RVA: 0x32A4C
+      Hint: 0x0
+      Name: RegCloseKey
+    + Entry:
+      Hint RVA: 0x32A5A
+      Hint: 0x1E
+      Name: RegOpenKeyExW
+    + Entry:
+      Hint RVA: 0x32AF6
+      Hint: 0x5
+      Name: RegDeleteKeyExW
+ + api-ms-win-core-winrt-l1-1-0.dll:
+    Characteristics    : 0x31610
+    OriginalFirstThunk : 0x31610
+    TimeDateStamp      : 0x0
+    ForwarderChain     : 0x0
+    Name               : 0x33082
+    FirstThunk         : 0x2A218
+
+    + Entry:
+      Hint RVA: 0x326AE
+      Hint: 0x1
+      Name: RoGetActivationFactory
+ + api-ms-win-core-heap-l2-1-0.dll:
+    Characteristics    : 0x31250
+    OriginalFirstThunk : 0x31250
+    TimeDateStamp      : 0x0
+    ForwarderChain     : 0x0
+    Name               : 0x330A4
+    FirstThunk         : 0x29E58
+
+    + Entry:
+      Hint RVA: 0x3292C
+      Hint: 0xE
+      Name: LocalUnlock
+    + Entry:
+      Hint RVA: 0x32822
+      Hint: 0xA
+      Name: LocalFree
+    + Entry:
+      Hint RVA: 0x32920
+      Hint: 0xB
+      Name: LocalLock
+    + Entry:
+      Hint RVA: 0x32AD6
+      Hint: 0x0
+      Name: GlobalAlloc
+    + Entry:
+      Hint RVA: 0x32722
+      Hint: 0x2
+      Name: GlobalFree
+    + Entry:
+      Hint RVA: 0x3282E
+      Hint: 0x8
+      Name: LocalAlloc
+    + Entry:
+      Hint RVA: 0x329E0
+      Hint: 0xC
+      Name: LocalReAlloc
+ + api-ms-win-core-file-l1-1-0.dll:
+    Characteristics    : 0x311A8
+    OriginalFirstThunk : 0x311A8
+    TimeDateStamp      : 0x0
+    ForwarderChain     : 0x0
+    Name               : 0x330C4
+    FirstThunk         : 0x29DB0
+
+    + Entry:
+      Hint RVA: 0x3293A
+      Hint: 0xF
+      Name: DeleteFileW
+    + Entry:
+      Hint RVA: 0x3290A
+      Hint: 0x32
+      Name: GetFileAttributesW
+    + Entry:
+      Hint RVA: 0x32948
+      Hint: 0x58
+      Name: SetEndOfFile
+    + Entry:
+      Hint RVA: 0x3296E
+      Hint: 0x31
+      Name: GetFileAttributesExW
+    + Entry:
+      Hint RVA: 0x32986
+      Hint: 0x33
+      Name: GetFileInformationByHandle
+    + Entry:
+      Hint RVA: 0x3284E
+      Hint: 0x12
+      Name: FindClose
+    + Entry:
+      Hint RVA: 0x3283C
+      Hint: 0x1A
+      Name: FindFirstFileW
+    + Entry:
+      Hint RVA: 0x32742
+      Hint: 0xA
+      Name: CreateFileW
+    + Entry:
+      Hint RVA: 0x32750
+      Hint: 0x51
+      Name: ReadFile
+    + Entry:
+      Hint RVA: 0x32B44
+      Hint: 0x29
+      Name: GetDiskFreeSpaceExW
+    + Entry:
+      Hint RVA: 0x32A02
+      Hint: 0x3B
+      Name: GetFullPathNameW
+    + Entry:
+      Hint RVA: 0x32B5A
+      Hint: 0x6
+      Name: CreateDirectoryW
+    + Entry:
+      Hint RVA: 0x328FE
+      Hint: 0x65
+      Name: WriteFile
+ + api-ms-win-shcore-obsolete-l1-1-0.dll:
+    Characteristics    : 0x31808
+    OriginalFirstThunk : 0x31808
+    TimeDateStamp      : 0x0
+    ForwarderChain     : 0x0
+    Name               : 0x330E4
+    FirstThunk         : 0x2A410
+
+    + Entry:
+      Hint RVA: 0x3278C
+      Hint: 0x2
+      Name: SHStrDupW
+ + api-ms-win-security-base-l1-1-0.dll:
+    Characteristics    : 0x317F8
+    OriginalFirstThunk : 0x317F8
+    TimeDateStamp      : 0x0
+    ForwarderChain     : 0x0
+    Name               : 0x3310A
+    FirstThunk         : 0x2A400
+
+    + Entry:
+      Hint RVA: 0x327C0
+      Hint: 0x42
+      Name: GetTokenInformation
+ + api-ms-win-core-processenvironment-l1-1-0.dll:
+    Characteristics    : 0x31390
+    OriginalFirstThunk : 0x31390
+    TimeDateStamp      : 0x0
+    ForwarderChain     : 0x0
+    Name               : 0x3312E
+    FirstThunk         : 0x29F98
+
+    + Entry:
+      Hint RVA: 0x32B9C
+      Hint: 0x7
+      Name: GetCurrentDirectoryW
+    + Entry:
+      Hint RVA: 0x327D6
+      Hint: 0x5
+      Name: GetCommandLineW
+    + Entry:
+      Hint RVA: 0x32B2C
+      Hint: 0x12
+      Name: SetCurrentDirectoryW
+ + api-ms-win-core-string-l1-1-0.dll:
+    Characteristics    : 0x314D8
+    OriginalFirstThunk : 0x314D8
+    TimeDateStamp      : 0x0
+    ForwarderChain     : 0x0
+    Name               : 0x3315C
+    FirstThunk         : 0x2A0E0
+
+    + Entry:
+      Hint RVA: 0x3285A
+      Hint: 0x3
+      Name: FoldStringW
+    + Entry:
+      Hint RVA: 0x328E8
+      Hint: 0x7
+      Name: WideCharToMultiByte
+    + Entry:
+      Hint RVA: 0x32DE0
+      Hint: 0x1
+      Name: CompareStringOrdinal
+    + Entry:
+      Hint RVA: 0x329CA
+      Hint: 0x6
+      Name: MultiByteToWideChar
+ + api-ms-win-core-psapi-l1-1-0.dll:
+    Characteristics    : 0x31418
+    OriginalFirstThunk : 0x31418
+    TimeDateStamp      : 0x0
+    ForwarderChain     : 0x0
+    Name               : 0x3317E
+    FirstThunk         : 0x2A020
+
+    + Entry:
+      Hint RVA: 0x32868
+      Hint: 0xA
+      Name: K32GetModuleFileNameExW
+ + api-ms-win-core-localization-obsolete-l1-2-0.dll:
+    Characteristics    : 0x31360
+    OriginalFirstThunk : 0x31360
+    TimeDateStamp      : 0x0
+    ForwarderChain     : 0x0
+    Name               : 0x331A0
+    FirstThunk         : 0x29F68
+
+    + Entry:
+      Hint RVA: 0x32898
+      Hint: 0x8
+      Name: GetUserDefaultUILanguage
+ + api-ms-win-core-sysinfo-l1-1-0.dll:
+    Characteristics    : 0x315A0
+    OriginalFirstThunk : 0x315A0
+    TimeDateStamp      : 0x0
+    ForwarderChain     : 0x0
+    Name               : 0x331D2
+    FirstThunk         : 0x2A1A8
+
+    + Entry:
+      Hint RVA: 0x328B4
+      Hint: 0x6
+      Name: GetLocalTime
+    + Entry:
+      Hint RVA: 0x32D40
+      Hint: 0x17
+      Name: GetSystemTimeAsFileTime
+ + api-ms-win-core-datetime-l1-1-0.dll:
+    Characteristics    : 0x31120
+    OriginalFirstThunk : 0x31120
+    TimeDateStamp      : 0x0
+    ForwarderChain     : 0x0
+    Name               : 0x331F6
+    FirstThunk         : 0x29D28
+
+    + Entry:
+      Hint RVA: 0x328C4
+      Hint: 0x2
+      Name: GetDateFormatW
+    + Entry:
+      Hint RVA: 0x328D6
+      Hint: 0x6
+      Name: GetTimeFormatW
+ + api-ms-win-shcore-path-l1-1-0.dll:
+    Characteristics    : 0x31818
+    OriginalFirstThunk : 0x31818
+    TimeDateStamp      : 0x0
+    ForwarderChain     : 0x0
+    Name               : 0x3321A
+    FirstThunk         : 0x2A420
+
+    + Entry:
+      Ordinal: 0xAA
+ + api-ms-win-core-memory-l1-1-0.dll:
+    Characteristics    : 0x31370
+    OriginalFirstThunk : 0x31370
+    TimeDateStamp      : 0x0
+    ForwarderChain     : 0x0
+    Name               : 0x3323C
+    FirstThunk         : 0x29F78
+
+    + Entry:
+      Hint RVA: 0x329BA
+      Hint: 0x14
+      Name: MapViewOfFile
+    + Entry:
+      Hint RVA: 0x329A4
+      Hint: 0x6
+      Name: CreateFileMappingW
+    + Entry:
+      Hint RVA: 0x329F0
+      Hint: 0x2B
+      Name: UnmapViewOfFile
+ + api-ms-win-core-registry-l2-1-0.dll:
+    Characteristics    : 0x31488
+    OriginalFirstThunk : 0x31488
+    TimeDateStamp      : 0x0
+    ForwarderChain     : 0x0
+    Name               : 0x3325E
+    FirstThunk         : 0x2A090
+
+    + Entry:
+      Hint RVA: 0x32A3C
+      Hint: 0x6
+      Name: RegCreateKeyW
+ + api-ms-win-core-heap-obsolete-l1-1-0.dll:
+    Characteristics    : 0x31290
+    OriginalFirstThunk : 0x31290
+    TimeDateStamp      : 0x0
+    ForwarderChain     : 0x0
+    Name               : 0x33282
+    FirstThunk         : 0x29E98
+
+    + Entry:
+      Hint RVA: 0x32A6A
+      Hint: 0xD
+      Name: LocalSize
+    + Entry:
+      Hint RVA: 0x32AB8
+      Hint: 0x4
+      Name: GlobalLock
+    + Entry:
+      Hint RVA: 0x32AC6
+      Hint: 0x7
+      Name: GlobalUnlock
+ + api-ms-win-shcore-scaling-l1-1-1.dll:
+    Characteristics    : 0x31828
+    OriginalFirstThunk : 0x31828
+    TimeDateStamp      : 0x0
+    ForwarderChain     : 0x0
+    Name               : 0x332AC
+    FirstThunk         : 0x2A430
+
+    + Entry:
+      Hint RVA: 0x32A88
+      Hint: 0x0
+      Name: GetDpiForMonitor
+ + api-ms-win-core-string-obsolete-l1-1-0.dll:
+    Characteristics    : 0x31500
+    OriginalFirstThunk : 0x31500
+    TimeDateStamp      : 0x0
+    ForwarderChain     : 0x0
+    Name               : 0x332D2
+    FirstThunk         : 0x2A108
+
+    + Entry:
+      Hint RVA: 0x32A9C
+      Hint: 0x5
+      Name: lstrcmpiW
+ + api-ms-win-core-windowserrorreporting-l1-1-3.dll:
+    Characteristics    : 0x315E0
+    OriginalFirstThunk : 0x315E0
+    TimeDateStamp      : 0x0
+    ForwarderChain     : 0x0
+    Name               : 0x332FE
+    FirstThunk         : 0x2A1E8
+
+    + Entry:
+      Hint RVA: 0x32B7E
+      Hint: 0x2
+      Name: RegisterApplicationRestart
+ + api-ms-win-eventing-provider-l1-1-0.dll:
+    Characteristics    : 0x317D0
+    OriginalFirstThunk : 0x317D0
+    TimeDateStamp      : 0x0
+    ForwarderChain     : 0x0
+    Name               : 0x33330
+    FirstThunk         : 0x2A3D8
+
+    + Entry:
+      Hint RVA: 0x32BCA
+      Hint: 0x3
+      Name: EventRegister
+    + Entry:
+      Hint RVA: 0x32BDA
+      Hint: 0x5
+      Name: EventUnregister
+    + Entry:
+      Hint RVA: 0x32BEC
+      Hint: 0x9
+      Name: EventWriteTransfer
+    + Entry:
+      Hint RVA: 0x32BB4
+      Hint: 0x4
+      Name: EventSetInformation
+ + api-ms-win-base-util-l1-1-0.dll:
+    Characteristics    : 0x310C0
+    OriginalFirstThunk : 0x310C0
+    TimeDateStamp      : 0x0
+    ForwarderChain     : 0x0
+    Name               : 0x33358
+    FirstThunk         : 0x29CC8
+
+    + Entry:
+      Hint RVA: 0x32C02
+      Hint: 0x0
+      Name: IsTextUnicode
+ + api-ms-win-core-libraryloader-l1-2-1.dll:
+    Characteristics    : 0x31328
+    OriginalFirstThunk : 0x31328
+    TimeDateStamp      : 0x0
+    ForwarderChain     : 0x0
+    Name               : 0x33378
+    FirstThunk         : 0x29F30
+
+    + Entry:
+      Hint RVA: 0x32C46
+      Hint: 0x1D
+      Name: FindResourceW
+ + api-ms-win-core-rtlsupport-l1-1-0.dll:
+    Characteristics    : 0x31498
+    OriginalFirstThunk : 0x31498
+    TimeDateStamp      : 0x0
+    ForwarderChain     : 0x0
+    Name               : 0x333A2
+    FirstThunk         : 0x2A0A0
+
+    + Entry:
+      Hint RVA: 0x32CA8
+      Hint: 0x668
+      Name: RtlVirtualUnwind
+    + Entry:
+      Hint RVA: 0x32C8E
+      Hint: 0x516
+      Name: RtlLookupFunctionEntry
+    + Entry:
+      Hint RVA: 0x32C7A
+      Hint: 0x30A
+      Name: RtlCaptureContext
+ + api-ms-win-core-processthreads-l1-1-1.dll:
+    Characteristics    : 0x313F0
+    OriginalFirstThunk : 0x313F0
+    TimeDateStamp      : 0x0
+    ForwarderChain     : 0x0
+    Name               : 0x333C8
+    FirstThunk         : 0x29FF8
+
+    + Entry:
+      Hint RVA: 0x32D0A
+      Hint: 0x32
+      Name: IsProcessorFeaturePresent
+    + Entry:
+      Hint RVA: 0x32D70
+      Hint: 0x1D
+      Name: GetProcessMitigationPolicy
+ + api-ms-win-core-profile-l1-1-0.dll:
+    Characteristics    : 0x31408
+    OriginalFirstThunk : 0x31408
+    TimeDateStamp      : 0x0
+    ForwarderChain     : 0x0
+    Name               : 0x333F2
+    FirstThunk         : 0x2A010
+
+    + Entry:
+      Hint RVA: 0x32D26
+      Hint: 0x0
+      Name: QueryPerformanceCounter
+ + api-ms-win-core-interlocked-l1-1-0.dll:
+    Characteristics    : 0x312B0
+    OriginalFirstThunk : 0x312B0
+    TimeDateStamp      : 0x0
+    ForwarderChain     : 0x0
+    Name               : 0x33416
+    FirstThunk         : 0x29EB8
+
+    + Entry:
+      Hint RVA: 0x32D5A
+      Hint: 0x0
+      Name: InitializeSListHead
+ + api-ms-win-core-winrt-error-l1-1-0.dll:
+    Characteristics    : 0x315F0
+    OriginalFirstThunk : 0x315F0
+    TimeDateStamp      : 0x0
+    ForwarderChain     : 0x0
+    Name               : 0x3343E
+    FirstThunk         : 0x2A1F8
+
+    + Entry:
+      Hint RVA: 0x32DC6
+      Hint: 0x12
+      Name: SetRestrictedErrorInfo
+ + api-ms-win-core-winrt-error-l1-1-1.dll:
+    Characteristics    : 0x31600
+    OriginalFirstThunk : 0x31600
+    TimeDateStamp      : 0x0
+    ForwarderChain     : 0x0
+    Name               : 0x33466
+    FirstThunk         : 0x2A208
+
+    + Entry:
+      Hint RVA: 0x32DF8
+      Hint: 0x6
+      Name: RoGetMatchingRestrictedErrorInfo
+ + COMCTL32.dll:
+    Characteristics    : 0x30CD0
+    OriginalFirstThunk : 0x30CD0
+    TimeDateStamp      : 0x0
+    ForwarderChain     : 0x0
+    Name               : 0x33526
+    FirstThunk         : 0x298D8
+
+    + Entry:
+      Hint RVA: 0x3348E
+      Hint: 0x54
+      Name: ImageList_Create
+    + Entry:
+      Hint RVA: 0x334A2
+      Hint: 0x72
+      Name: ImageList_SetBkColor
+    + Entry:
+      Ordinal: 0x17D
+    + Entry:
+      Hint RVA: 0x334BA
+      Hint: 0x70
+      Name: ImageList_ReplaceIcon
+    + Entry:
+      Ordinal: 0x19A
+    + Entry:
+      Hint RVA: 0x334D2
+      Hint: 0x5B
+      Name: ImageList_Draw
+    + Entry:
+      Hint RVA: 0x334E4
+      Hint: 0x64
+      Name: ImageList_GetIconSize
+    + Entry:
+      Ordinal: 0x19D
+    + Entry:
+      Hint RVA: 0x334FC
+      Hint: 0x55
+      Name: ImageList_Destroy
+    + Entry:
+      Ordinal: 0x159
+    + Entry:
+      Hint RVA: 0x33510
+      Hint: 0xC
+      Name: CreateStatusWindowW
+ + api-ms-win-core-delayload-l1-1-1.dll:
+    Characteristics    : 0x31168
+    OriginalFirstThunk : 0x31168
+    TimeDateStamp      : 0x0
+    ForwarderChain     : 0x0
+    Name               : 0x33564
+    FirstThunk         : 0x29D70
+
+    + Entry:
+      Hint RVA: 0x33534
+      Hint: 0x1
+      Name: ResolveDelayLoadedAPI
+ + api-ms-win-core-delayload-l1-1-0.dll:
+    Characteristics    : 0x31158
+    OriginalFirstThunk : 0x31158
+    TimeDateStamp      : 0x0
+    ForwarderChain     : 0x0
+    Name               : 0x3358A
+    FirstThunk         : 0x29D60
+
+    + Entry:
+      Hint RVA: 0x3354C
+      Hint: 0x0
+      Name: DelayLoadFailureHook
+
+Base Relocations 
+    Block 0x0: 
+    Page RVA: 0x29000
+    Block size: 0x1FC
+    Number of entries: 0xFA
+    Entries:
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x0
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x8
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x10
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x18
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x20
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x28
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x30
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x38
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x40
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x48
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x50
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x58
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x60
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x68
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x70
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x78
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x80
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x88
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x90
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x98
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0xA0
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0xA8
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0xB0
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0xB8
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0xC0
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0xC8
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0xD0
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0xD8
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0xE0
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0xE8
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0xF0
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0xF8
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x100
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x108
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x110
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x118
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x120
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x128
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x130
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x138
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x140
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x148
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x150
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x158
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x160
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x168
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x170
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x178
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x180
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x188
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x190
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x198
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x1A0
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x1A8
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x1B0
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x1B8
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x1C0
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x1C8
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x1D0
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x1D8
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x1E0
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x1E8
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x1F0
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x1F8
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x200
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x208
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x210
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x218
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x220
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x228
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x230
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x238
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x240
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x248
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x250
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x258
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x260
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x268
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x270
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x278
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x280
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x288
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x290
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x298
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x2A0
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x2A8
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x2B0
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x2B8
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x2C0
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x2C8
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x2D0
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x2D8
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x2E0
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x2E8
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x2F0
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x2F8
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x300
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x308
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x310
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x318
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x320
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x328
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x338
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x340
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x348
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x350
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x358
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x360
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x368
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x370
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x378
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x380
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x388
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x390
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x398
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x3A0
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x3A8
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x3B0
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x3B8
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x3C0
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x3C8
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x3D0
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x3D8
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x3E0
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x3E8
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x3F0
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x3F8
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x400
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x408
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x410
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x418
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x420
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x428
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x430
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x438
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x440
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x448
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x450
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x458
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x460
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x468
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x470
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x478
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x480
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x488
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x490
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x498
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x4A0
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x4A8
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x4B0
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x4B8
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x4C0
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x4C8
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x4D0
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x4D8
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x4E0
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x4E8
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x4F0
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x4F8
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x500
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x508
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x510
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x518
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x520
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x528
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x530
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x538
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x540
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x548
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x550
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x558
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x560
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x568
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x570
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x578
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x580
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x588
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x590
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x598
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x5A0
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x5B0
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x5B8
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x5C0
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x5C8
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x5D0
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x5D8
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x5E0
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x5E8
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x5F0
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x5F8
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x600
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x608
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x610
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x618
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x620
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x628
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x630
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x638
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x640
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x648
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x650
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x658
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x660
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x668
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x670
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x678
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x680
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x688
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x690
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x698
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x6A0
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x6A8
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x6B0
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x6B8
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x6C0
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x6C8
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x6D0
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x6D8
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x6E0
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x6E8
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x6F0
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x6F8
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x700
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x708
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x710
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x718
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x720
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x728
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x730
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x738
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x740
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x748
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x750
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x758
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x760
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x768
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x770
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x778
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x780
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x788
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x7E8
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x800
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x808
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x810
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x830
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x898
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x8A8
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x8B0
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x8B8
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x8C0
+    Block 0x1: 
+    Page RVA: 0x2A000
+    Block size: 0x3C
+    Number of entries: 0x1A
+    Entries:
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x440
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x448
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x450
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x458
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x460
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x478
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x480
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x488
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x490
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x498
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x4A0
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x4A8
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x4B0
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x4B8
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x4C0
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x4C8
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x4D0
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x4D8
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x4E0
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x4E8
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x4F0
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x4F8
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x510
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x518
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x520
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x528
+    Block 0x2: 
+    Page RVA: 0x34000
+    Block size: 0x84
+    Number of entries: 0x3E
+    Entries:
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x0
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x8
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x10
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x18
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x20
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x28
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x30
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x38
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x40
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x48
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x50
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x58
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x60
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x68
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x70
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x78
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x80
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x88
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x90
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x98
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0xA0
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0xA8
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0xB0
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0xB8
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0xC0
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0xC8
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0xD8
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0xE0
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0xE8
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0xF0
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0xF8
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x100
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x108
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x110
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x118
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x120
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x128
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x130
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x138
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x140
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x148
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x150
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x158
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x160
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x168
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x178
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x188
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x198
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x1A8
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x1B8
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x1C8
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x1D8
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x1E8
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x1F0
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x200
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x230
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x248
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x348
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x370
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x398
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x3C8
+    + Value: 
+      Relocation Type: 0x0
+      Offset: 0x0
+    Block 0x3: 
+    Page RVA: 0x39000
+    Block size: 0x3C
+    Number of entries: 0x1A
+    Entries:
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x0
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x8
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x18
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x20
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x28
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x30
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x38
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x40
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x48
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x50
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x58
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x68
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x70
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x80
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x88
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x90
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0x98
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0xA0
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0xA8
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0xB0
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0xB8
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0xC8
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0xD0
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0xD8
+    + Value: 
+      Relocation Type: 0xA
+      Offset: 0xE8
+    + Value: 
+      Relocation Type: 0x0
+      Offset: 0x0
+    Block 0x4: 
+    Page RVA: 0x1
+    Block size: 0x50
+    Number of entries: 0x24
+    Entries:
+    + Value: 
+      Relocation Type: 0x0
+      Offset: 0x7
+    + Value: 
+      Relocation Type: 0x0
+      Offset: 0x0
+    + Value: 
+      Relocation Type: 0x0
+      Offset: 0x0
+    + Value: 
+      Relocation Type: 0x0
+      Offset: 0x0
+    + Value: 
+      Relocation Type: 0x0
+      Offset: 0x44
+    + Value: 
+      Relocation Type: 0x0
+      Offset: 0x0
+    + Value: 
+      Relocation Type: 0x0
+      Offset: 0x20
+    + Value: 
+      Relocation Type: 0x0
+      Offset: 0x0
+    + Value: 
+      Relocation Type: 0x7
+      Offset: 0x3E0
+    + Value: 
+      Relocation Type: 0x0
+      Offset: 0x2
+    + Value: 
+      Relocation Type: 0x0
+      Offset: 0x0
+    + Value: 
+      Relocation Type: 0x0
+      Offset: 0x0
+    + Value: 
+      Relocation Type: 0x0
+      Offset: 0x4
+    + Value: 
+      Relocation Type: 0x0
+      Offset: 0x0
+    + Value: 
+      Relocation Type: 0x0
+      Offset: 0xC
+    + Value: 
+      Relocation Type: 0x0
+      Offset: 0x0
+    + Value: 
+      Relocation Type: 0x7
+      Offset: 0x3E0
+    + Value: 
+      Relocation Type: 0x0
+      Offset: 0x2
+    + Value: 
+      Relocation Type: 0x8
+      Offset: 0x0
+    + Value: 
+      Relocation Type: 0x0
+      Offset: 0x2
+    + Value: 
+      Relocation Type: 0x0
+      Offset: 0xC
+    + Value: 
+      Relocation Type: 0x0
+      Offset: 0x0
+    + Value: 
+      Relocation Type: 0x1
+      Offset: 0x11
+    + Value: 
+      Relocation Type: 0x0
+      Offset: 0x0
+    + Value: 
+      Relocation Type: 0x0
+      Offset: 0x1
+    + Value: 
+      Relocation Type: 0x0
+      Offset: 0x0
+    + Value: 
+      Relocation Type: 0x0
+      Offset: 0x18
+    + Value: 
+      Relocation Type: 0x0
+      Offset: 0x0
+    + Value: 
+      Relocation Type: 0x0
+      Offset: 0x2
+    + Value: 
+      Relocation Type: 0x0
+      Offset: 0x1
+    + Value: 
+      Relocation Type: 0x0
+      Offset: 0x142
+    + Value: 
+      Relocation Type: 0x0
+      Offset: 0x0
+    + Value: 
+      Relocation Type: 0x0
+      Offset: 0x1
+    + Value: 
+      Relocation Type: 0x0
+      Offset: 0x1
+    + Value: 
+      Relocation Type: 0x0
+      Offset: 0x0
+    + Value: 
+      Relocation Type: 0x0
+      Offset: 0x0
